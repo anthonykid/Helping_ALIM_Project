@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="edtTxtName" type="id" />
+    <item name="txtMessageName" type="id" />
+    <item name="txtMessageEmail" type="id" />
+    <item name="edtTxtEmail" type="id" />
+    <item name="txtMessageAge" type="id" />
+    <item name="edtTxtAge" type="id" />
+    <item name="btnHello" type="id" />
+</resources>

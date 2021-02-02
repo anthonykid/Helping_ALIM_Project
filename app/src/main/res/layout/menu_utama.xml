@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu_utama"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edtTxtName"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="640dp" />
+
+    <EditText
+        android:id="@+id/edtTxtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Email"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="640dp" />
+
+    <EditText
+        android:id="@+id/edtTxtAge"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Age"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="640dp" />
+
+    <Button
+        android:id="@+id/btnHello"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:onClick="onBtnClick"
+        android:text="Input"
+        android:textSize="40sp"
+        app:backgroundTint="#E61F1F"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="640dp" />
+
+    <TextView
+        android:id="@+id/txtMessageName"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:gravity="center"
+        android:text="Name"
+        android:textColor="#AF8635"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="464dp" />
+
+    <TextView
+        android:id ="@+id/txtMessageEmail"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:text="Email"
+        android:textColor="#AF8635"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="464dp"
+        />
+
+    <TextView
+        android:id ="@+id/txtMessageAge"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:text="Age"
+        android:textColor="#AF8635"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="464dp"
+        />
+
+</LinearLayout>
